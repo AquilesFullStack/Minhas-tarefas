@@ -13,21 +13,21 @@ const initialState: TarefaState = {
       descricao: 'estudar materia A',
       prioridade: enums.Prioridade.IMPORTANTE,
       status: enums.Status.CONCLUIDA,
-      titulo: 'estudar java'
+      titulo: 'esquecer a chave'
     },
     {
       id: 2,
       descricao: 'estudar materia B',
-      prioridade: enums.Prioridade.IMPORTANTE,
+      prioridade: enums.Prioridade.URGENTE,
       status: enums.Status.CONCLUIDA,
-      titulo: 'estudar javaS'
+      titulo: 'estudar java'
     },
     {
       id: 3,
       descricao: 'estudar materia C',
-      prioridade: enums.Prioridade.IMPORTANTE,
-      status: enums.Status.CONCLUIDA,
-      titulo: 'estudar javaB'
+      prioridade: enums.Prioridade.URGENTE,
+      status: enums.Status.PENDENTE,
+      titulo: 'andar de carro'
     }
   ]
 }
