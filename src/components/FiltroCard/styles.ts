@@ -10,6 +10,7 @@ export const Card = styled.div<Props>`
   background-color: ${(props) => (props.ativo ? '#fff' : '#fcfcfc')};
   color: ${(props) => (props.ativo ? '#1E90FF' : '#5e5e5e')};
   border-radius: 8px;
+  cursor: pointer;
 `
 
 export const Contador = styled.span`
